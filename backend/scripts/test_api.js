@@ -57,7 +57,7 @@ function post(path, data) {
 
     console.log('Fetching posts...');
     const posts = await new Promise((resolve, reject) => {
-      http.get('http://localhost:5000/api/posts', (res) => {
+      http.get('https://social-post-app-final.onrender.com/api/posts', (res) => {
         let body = '';
         res.on('data', (c) => (body += c));
         res.on('end', () => resolve({ statusCode: res.statusCode, body }));
