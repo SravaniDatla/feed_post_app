@@ -13,7 +13,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      'https://feed-post-c53q66ff0-datla-sravani-s-projects.vercel.app'
+      'https://feed-post-app.vercel.app'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
