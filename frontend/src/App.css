@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: white;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.feed-container {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.create-post,
+.post-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.create-header {
+  display: flex;
+  gap: 10px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+textarea {
+  flex: 1;
+  resize: none;
+  height: 70px;
+  padding: 10px;
+}
+
+.post-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  background: #1976d2;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.post-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.post-image {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.actions button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.comment-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comment-section input {
+  flex: 1;
+  padding: 10px;
+}
+
+.comment-section button {
+  padding: 10px;
+}
+
+.comment {
+  background: #f0f2f5;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.auth-card {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+}
