@@ -49,7 +49,7 @@ function post(path, data, token) {
 
     console.log('Fetching posts...');
     const posts = await new Promise((resolve, reject) => {
-      http.get('https://social-post-app-final.onrender.com/api/posts', (res) => {
+      http.get('https://feed-post-app-z0y4.onrender.com/api/posts', (res) => {
         let body = '';
         res.on('data', (c) => (body += c));
         res.on('end', () => resolve({ statusCode: res.statusCode, body }));

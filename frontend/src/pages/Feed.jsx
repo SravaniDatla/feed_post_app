@@ -23,7 +23,7 @@ function Feed() {
   };
 
   useEffect(() => {
-    fetch("https://social-post-app-final.onrender.com/api/posts")
+    fetch("https://feed-post-app-z0y4.onrender.com/api/posts")
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data)) {

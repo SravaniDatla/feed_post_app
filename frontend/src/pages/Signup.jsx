@@ -13,7 +13,7 @@ function Signup() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("https://social-post-app-final.onrender.com/api/auth/signup", {
+    fetch("https://feed-post-app-z0y4.onrender.com/api/auth/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

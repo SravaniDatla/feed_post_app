@@ -10,7 +10,7 @@ function CreatePost({ addPost }) {
       return;
     }
     const token = localStorage.getItem("token");
-    fetch("https://social-post-app-final.onrender.com/api/posts", {
+    fetch("https://feed-post-app-z0y4.onrender.com/api/posts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

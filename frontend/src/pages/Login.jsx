@@ -11,7 +11,7 @@ function Login() {
 
     if (!email || !password) return;
 
-    fetch("https://social-post-app-final.onrender.com/api/auth/login", {
+    fetch("https://feed-post-app-z0y4.onrender.com/api/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
